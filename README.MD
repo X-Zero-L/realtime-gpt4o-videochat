@@ -1,7 +1,7 @@
 # Realtime GPT-4o photo, video & voice chat
 A lightweight demo application for real-time GPT-4o communication including photo/video support, GPT-4o vision integration and voice chat.
 
-[![Watch the video](https://i3.ytimg.com/vi/Bh5tORytR90/hqdefault.jpg)](https://youtu.be/nTQUwghvy5Q)
+[![Watch the video](https://i3.ytimg.com/vi/Bh5tORytR90/hqdefault.jpg)](https://www.youtube.com/watch?v=Bh5tORytR90)
 
 https://youtu.be/nTQUwghvy5Q
 
