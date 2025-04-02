@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    container_name: gpt4o-videochat
+    ports:
+      - "3000:3000"
+    volumes:
+      # 挂载config.js以便可以在容器外部修改API密钥
+      - ./config.js:/app/config.js
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
