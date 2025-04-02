@@ -3,7 +3,7 @@ export const OPENAI_KEY = "sk-proj-XXXXXXXXX";
 export const OPENAI_INSTRUCTIONS = `
 System settings:
 - Tool use: enabled.
-- Language: English
+- Language: Chinese
 
 Instructions:
 - Please make sure to respond with an answer if I ask you something

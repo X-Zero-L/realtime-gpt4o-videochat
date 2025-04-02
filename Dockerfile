@@ -1,6 +1,9 @@
-FROM node:20-alpine
+FROM node:18-alpine3.18
 
 WORKDIR /app
+
+# 安装 Python 和构建工具
+RUN apk add --no-cache python3 make g++
 
 # 复制package.json和package-lock.json（如果存在）
 COPY package*.json ./
